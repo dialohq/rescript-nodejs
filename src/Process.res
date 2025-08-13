@@ -6,7 +6,7 @@ type t = {
   execPath: string,
   exitCode: int,
 }
-@module external process: t = "process"
+@val external process: t = "process"
 
 type warning = {
   name: string,
